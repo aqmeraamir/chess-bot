@@ -2,18 +2,17 @@
 
 Chess Bot AI is a terminal-based C++ chess engine built entirely from scratch using bitboards, move generation, and a simple Minimax algorithm. It’s a fully playable AI where a human can play against the engine in real time through the console.
 
-This was one of my earlier projects from when I was around 14, exploring how AI and game logic come together in chess. The engine isn’t perfect — there are likely bugs and missing rules (like castling or en passant) — but the core logic is all hand-coded and demonstrates how a basic chess bot can function.
+I made this project during year 12, exploring how AI and game logic come together in chess. The engine isn’t perfect — there are likely bugs and missing rules (like castling or en passant) — but the core logic is all hand-coded and demonstrates how a basic chess bot can function.
 
 ---
 
 ## Features
 
-- ✅ Bitboard-based board representation
-- ✅ Move generation for all piece types
-- ✅ Minimax AI with a simple evaluation function
-- ✅ Legal move filtering and check detection
-- ✅ Command-line input with algebraic notation
-- ❌ No GUI (console only)
+- Bitboard-based board representation
+- Move generation for all piece types
+- Minimax AI with a simple evaluation function
+- Legal move filtering and check detection
+- Command-line input with standard chess algebraic notation
 - ❌ No castling, en passant, or promotion support (yet)
 
 ---
