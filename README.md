@@ -34,8 +34,10 @@ OR
    cd chess-bot
    ```
 
-2. Build the project using make
-    run the build file
+2. Build the project using Make
+    ```
+    make
+    ```
 
 
 3. Run the game
