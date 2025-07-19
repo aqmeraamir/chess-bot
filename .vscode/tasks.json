@@ -9,12 +9,12 @@
                 "-fdiagnostics-color=always",
 				"-std=c++17",
                 "-g",
-                "${workspaceFolder}/src/main.cpp", // Main program
-                "${workspaceFolder}/src/chessboard.cpp", // ChessBoard implementation
-				"${workspaceFolder}/src/evaluation.cpp", // ChessPiece implementation
-                "-I", "${workspaceFolder}/include", // Include directory for header files
+                "${workspaceFolder}/src/main.cpp", // main program
+                "${workspaceFolder}/src/chessboard.cpp", 
+				"${workspaceFolder}/src/evaluation.cpp", 
+                "-I", "${workspaceFolder}/include", // header files
                 "-o",
-				"${workspaceFolder}/bin/main" // Output binary
+				"${workspaceFolder}/bin/main" 
 			],
 			"options": {
 				"cwd": "${workspaceFolder}"

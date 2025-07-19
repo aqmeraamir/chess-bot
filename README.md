@@ -17,9 +17,16 @@ I made this project during year 12, exploring how AI and game logic come togethe
 
 ---
 
-## Getting Started
+## Setup
 
-### Build Instructions
+### Download executable
+1. Download the latest executable file [chess-bot-mac](https://github.com/aqmeraamir/chess-bot/releases/download/1.0/chess-bot-mac) (only works on mac/unix)
+
+2. Run the executable 
+
+OR
+
+### Build from source (will work on windows)
 
 1. Clone the repo:
    ```bash
@@ -27,13 +34,13 @@ I made this project during year 12, exploring how AI and game logic come togethe
    cd chess-bot
    ```
 
-2. Compile the code 
+2. Build the project using make
     run the build file
 
 
-3. Run the build
+3. Run the game
     ```
-    bin/main
+    .bin/ChessBot
     ```
 
 ## How to Play
@@ -47,4 +54,23 @@ Once the board prints in the terminal, enter your moves using standard algebraic
 
 The AI will play as Black and make its move after yours.
 
-### Sample Output
+## Sample Output
+
+CLI:
+
+```
+8 ♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
+7 ♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟
+6
+5
+4
+3
+2 ♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙
+1 ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖
+  a b c d e f g h
+```
+
+Enter your move (e.g., e2e4) or 'q' to quit:
+
+## License
+MIT — feel free to use or modify this for your own chess projects.
